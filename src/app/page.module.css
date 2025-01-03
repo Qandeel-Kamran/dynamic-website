@@ -1,0 +1,76 @@
+
+
+.saleBanner {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 20px;
+    background-color: #020202;
+    color: #fafafa;
+  }
+  
+  .saleText {
+    flex: 1; 
+    padding: top 4px; ;
+    padding-left: 10%;
+   
+   
+  }
+
+  .saleText {
+   
+    white-space: nowrap;       
+  }
+  
+  .languageSelector select {
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #030303;
+    border-radius: 4px;
+    color: #000000;
+    background-color: rgb(255, 255, 255);
+    
+  }
+
+  .NavRight {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Push everything to the right */
+    gap: 20px; /* Space between items */
+  }
+  
+  .NavRight input {
+    padding: 8px;
+    width: 200px; /* Fixed width for search bar */
+    margin-right: 10px;
+  }
+  
+  .NavRight button {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between the icon and text */
+  }
+  
+  .NavRight .like-btn {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Space between icon and text */
+    padding: 5px 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .NavRight .cart button {
+    padding: 8px;
+    background: none;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+
+
+
+  
